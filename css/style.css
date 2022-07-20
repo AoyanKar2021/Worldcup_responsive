@@ -176,7 +176,7 @@ section.blogs_outer_wrapper {
     transition: all .5s;
 }
 /* Hover */
-.blogs_left ul li a:hover {
+.blogs_left ul li a:hover:not(.active) {
     
     /* background: #ef6767; */
    
@@ -235,7 +235,7 @@ section.blogs_outer_wrapper {
     transition: all 1s;
 }
 /* hover */
-.blog_info a:hover :not(.active) {
+.blog_info a:hover  {
     background-color: #DD0000;
     border: 0px;
     color: #FFFFFF;
