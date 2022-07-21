@@ -471,7 +471,7 @@ article.Live_streams {
     
  
     .header_container {
-        
+        height: auto;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -536,7 +536,7 @@ article.Live_streams {
     }
     .header_left {
         text-align: center;
-        padding-bottom: 28px;
+    padding: 30px;
     }
     .header_left p {
        
