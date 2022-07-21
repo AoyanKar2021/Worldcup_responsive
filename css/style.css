@@ -136,7 +136,7 @@ section.blogs_outer_wrapper {
     justify-content: center;
 }
 .blogs_container {
-    width: 80%;
+    width: 90%;
     display: grid;
     grid-template-columns: 220px 1fr;
     grid-gap: 10px;
@@ -199,10 +199,9 @@ section.blogs_outer_wrapper {
 .blogs_right {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
+    grid-gap: 20px;
 }
 .blog {
-    
     
     left: 476px;
     top: 826px;
@@ -216,11 +215,11 @@ section.blogs_outer_wrapper {
     padding: 8px;
 }
 .blog_thumnail img {
-    width: 95%;
-    height: 200px;
+    width: 100%;
+  
     
 }
-.blog_thumnail img{}
+
 .blog_info{}
 .blog_info a {
     width: 100px;
