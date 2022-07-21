@@ -92,7 +92,7 @@ a{
     text-align: justify;
 }
 .watch_button {
-    padding: 25px;
+    padding: 20px;
     background: #DD0000;
     color: #FFFF;
     font-size: 21px;
@@ -362,6 +362,8 @@ article.Live_streams {
         
     }
     .header_container {
+        width: 90%;
+        height: auto;
         grid-gap: 5px;
         margin: 50px;
     }
@@ -370,7 +372,7 @@ article.Live_streams {
         display: flex;
         justify-content: center;
         background-position: bottom left;
-        background-size: auto;
+        background-size: contain;
     }
     .blogs_container {
         
@@ -471,7 +473,7 @@ article.Live_streams {
     
  
     .header_container {
-        height: auto;
+        
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -536,7 +538,7 @@ article.Live_streams {
     }
     .header_left {
         text-align: center;
-    padding: 30px;
+        padding-bottom: 28px;
     }
     .header_left p {
        
