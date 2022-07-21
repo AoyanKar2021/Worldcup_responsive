@@ -351,6 +351,11 @@ article.Live_streams {
 /* // Medium devices (tablets, 768px and up) */
  @media only screen and (max-width: 768px)
 {
+    .stream_blogs_right {
+       
+        grid-template-columns: 1fr 1fr;
+        
+    }
   
     .hidden_btn {
         display: flex;
@@ -444,6 +449,11 @@ article.Live_streams {
 } */
 @media only screen and (max-width:576px)
 {
+    .stream_blogs_right {
+        
+        grid-template-columns: 1fr ;
+       
+    }
     .hidden_btn {
         display: none;
     }
