@@ -6,7 +6,6 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'PT Serif', serif;
     font-family: 'Rubik', sans-serif;
-
 */
 /*================= Colors ============== */
 /* 
@@ -60,7 +59,7 @@ a{
     /* align-items: center; */
 }
 .header_container {
-    width: 80%;
+    width: 90%;
     height: 470px;
     background: black;
     display: grid;
@@ -93,11 +92,11 @@ a{
     text-align: justify;
 }
 .watch_button {
-    padding: 10px 15px;
+    padding: 10px;
     background: #DD0000;
     color: #FFFF;
-    font-size: 12px;
-    width: 128px;
+    font-size: 21px;
+    width: 200px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -118,7 +117,7 @@ a{
     align-items: center;
     font-weight: bolder;
     color: #FFFFFF;
-    font-size: 12px;
+    font-size: 21px;
 }
 /* header-right */
 .header_right {
@@ -395,8 +394,7 @@ article.Live_streams {
         padding: 10px;
     }
     
-element.style {
-}
+
 .blogs_left ul li a {
     display: flex;
     width: 11rem;
@@ -441,7 +439,6 @@ element.style {
 } 
 /* @media only screen and (min-width: 480px) and (max-width:767)
 {
-
 } */
 @media only screen and (max-width:576px)
 {
@@ -553,10 +550,6 @@ element.style {
         margin: 0px auto;
     }
 }
-
-
-
-
 
 
 
